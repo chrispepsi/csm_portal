@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>preview_page</id>
+        <internal>false</internal>
+        <public>false</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 13:15:09</sys_created_on>
+        <sys_id>6ed2d5fd1b615010f61b4196bc4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>preview_page</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_page_6ed2d5fd1b615010f61b4196bc4bcbaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 13:15:09</sys_updated_on>
+        <title>Preview Page</title>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=6ed2d5fd1b615010f61b4196bc4bcbaa"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sp_page_6ed2d5fd1b615010f61b4196bc4bcbaa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css/><draft>false</draft><dynamic_title_structure/><id>preview_page</id><internal>false</internal><public>false</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-22 13:15:09</sys_created_on><sys_id>6ed2d5fd1b615010f61b4196bc4bcbaa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>preview_page</sys_name><sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package><sys_policy/><sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope><sys_update_name>sp_page_6ed2d5fd1b615010f61b4196bc4bcbaa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-22 13:15:09</sys_updated_on><title>Preview Page</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=6ed2d5fd1b615010f61b4196bc4bcbaa"/></record_update>]]></payload>
+        <payload_hash>841445817</payload_hash>
+        <record_name>preview_page</record_name>
+        <reverted_from/>
+        <source>61e3847a1bc91410f61b4196bc4bcbb7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 13:15:09</sys_created_on>
+        <sys_id>aed2d5fd1b615010f61b4196bc4bcbac</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172dc2b0fbd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 13:15:09</sys_updated_on>
+        <type>Page</type>
+        <update_guid>e6d2d5fd6a6150102bf3766bbd86afac</update_guid>
+        <update_guid_history>e6d2d5fd6a6150102bf3766bbd86afac:841445817</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="preview_page">48f69db11ba15010f61b4196bc4bcb75</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 13:33:00</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>90f4eb7ed19d48ee917666e56d1c2204</sys_id>
+        <sys_metadata>6ed2d5fd1b615010f61b4196bc4bcbaa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>preview_page</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>sp_page_6ed2d5fd1b615010f61b4196bc4bcbaa</sys_update_name>
+        <sys_update_version display_value="sp_page_6ed2d5fd1b615010f61b4196bc4bcbaa">aed2d5fd1b615010f61b4196bc4bcbac</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 13:33:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

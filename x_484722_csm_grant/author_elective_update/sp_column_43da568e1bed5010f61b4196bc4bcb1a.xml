@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size/>
+        <size_lg/>
+        <size_sm>4</size_sm>
+        <size_xs/>
+        <sp_row display_value="1">43da568e1bed5010f61b4196bc4bcb15</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:08:14</sys_created_on>
+        <sys_id>43da568e1bed5010f61b4196bc4bcb1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_column_43da568e1bed5010f61b4196bc4bcb1a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:08:14</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sp_column_43da568e1bed5010f61b4196bc4bcb1a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size/><size_lg/><size_sm>4</size_sm><size_xs/><sp_row display_value="1">43da568e1bed5010f61b4196bc4bcb15</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-23 13:08:14</sys_created_on><sys_id>43da568e1bed5010f61b4196bc4bcb1a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package><sys_policy/><sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope><sys_update_name>sp_column_43da568e1bed5010f61b4196bc4bcb1a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-23 13:08:14</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>-1694659284</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>61e3847a1bc91410f61b4196bc4bcbb7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:08:14</sys_created_on>
+        <sys_id>83da568e1bed5010f61b4196bc4bcb1b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e14b16610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:08:14</sys_updated_on>
+        <type>Column</type>
+        <update_guid>cbda568efaed5010cde77deac42ebd1a</update_guid>
+        <update_guid_history>cbda568efaed5010cde77deac42ebd1a:-1694659284</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">dd1b1a8e1bed5010f61b4196bc4bcbfc</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:09:12</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>aa4a47cd4079471c977299b79cf81f99</sys_id>
+        <sys_metadata>43da568e1bed5010f61b4196bc4bcb1a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>sp_column_43da568e1bed5010f61b4196bc4bcb1a</sys_update_name>
+        <sys_update_version display_value="sp_column_43da568e1bed5010f61b4196bc4bcb1a">83da568e1bed5010f61b4196bc4bcb1b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:09:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

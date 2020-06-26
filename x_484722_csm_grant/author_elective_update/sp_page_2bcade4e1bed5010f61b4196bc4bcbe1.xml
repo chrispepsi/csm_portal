@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="DELETE">
+        <category>custom</category>
+        <css>body .padding-top{
+  padding-top: 0px;
+}
+section.page { 
+  background-color: $sp-homepage-bg;
+}
+
+section.page, section.body {
+    padding-top: 0px !important;
+}
+
+.banner-container {
+    height: 230px;
+    display: table;
+  	width: 100%;
+}
+.v-h-center {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+#homepage-search {
+  	padding: 0px !important;
+}
+#homepage-search h2 {
+	font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-top: 0px;
+	margin-bottom: 10px !important;
+}
+#homepage-search .h4 {
+	margin-top: 0px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+}
+#homepage-search div[widget] .input-group {
+	max-width: 578px;
+  	margin: 0 auto;	
+}
+#homepage-search div[widget] .input-group input[name="q"] {
+	height: 42px;
+    border: 1.2px solid $input-border;
+    border-radius: 4.8px 0 0 4.8px;
+  	padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#homepage-search div[widget] .input-group input[name="q"]:focus {
+  outline: 5px auto $input-border-focus;
+}
+#homepage-search ::placeholder {
+	font-size: 16px;
+	line-height: 25px;
+}
+#homepage-search :-ms-input-placeholder {
+	font-size: 16px;
+	line-height: 25px;
+}
+#homepage-search div[widget] .input-group .input-group-btn &gt; button {
+	height: 42px;
+    min-width: 48px;
+    border: 1.2px solid $input-border;
+    border-radius: 0 4.8px 4.8px 0;
+    padding: 0;
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>copy_of_csm_index_2</id>
+        <internal>false</internal>
+        <public>true</public>
+        <roles/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:08:00</sys_created_on>
+        <sys_id>2bcade4e1bed5010f61b4196bc4bcbe1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_csm_index_2</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_page_2bcade4e1bed5010f61b4196bc4bcbe1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:08:00</sys_updated_on>
+        <title>Copy of Customer Service Portal (2)</title>
+    </sp_page>
+    <sys_translated_text action="DELETE" query="documentkey=2bcade4e1bed5010f61b4196bc4bcbe1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sp_page_2bcade4e1bed5010f61b4196bc4bcbe1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page"><sp_page action="INSERT_OR_UPDATE"><category>custom</category><css>body .padding-top{
+  padding-top: 0px;
+}
+section.page { 
+  background-color: $sp-homepage-bg;
+}
+
+section.page, section.body {
+    padding-top: 0px !important;
+}
+
+.banner-container {
+    height: 230px;
+    display: table;
+  	width: 100%;
+}
+.v-h-center {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+#homepage-search {
+  	padding: 0px !important;
+}
+#homepage-search h2 {
+	font-size: 36px;
+    font-weight: 300;
+    line-height: 42px;
+    margin-top: 0px;
+	margin-bottom: 10px !important;
+}
+#homepage-search .h4 {
+	margin-top: 0px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21px;
+}
+#homepage-search div[widget] .input-group {
+	max-width: 578px;
+  	margin: 0 auto;	
+}
+#homepage-search div[widget] .input-group input[name="q"] {
+	height: 42px;
+    border: 1.2px solid $input-border;
+    border-radius: 4.8px 0 0 4.8px;
+  	padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+#homepage-search div[widget] .input-group input[name="q"]:focus {
+  outline: 5px auto $input-border-focus;
+}
+#homepage-search ::placeholder {
+	font-size: 16px;
+	line-height: 25px;
+}
+#homepage-search :-ms-input-placeholder {
+	font-size: 16px;
+	line-height: 25px;
+}
+#homepage-search div[widget] .input-group .input-group-btn &gt; button {
+	height: 42px;
+    min-width: 48px;
+    border: 1.2px solid $input-border;
+    border-radius: 0 4.8px 4.8px 0;
+    padding: 0;
+}</css><draft>false</draft><dynamic_title_structure/><id>copy_of_csm_index_2</id><internal>false</internal><public>true</public><roles/><short_description/><sys_class_name>sp_page</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-23 13:08:00</sys_created_on><sys_id>2bcade4e1bed5010f61b4196bc4bcbe1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>copy_of_csm_index_2</sys_name><sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package><sys_policy/><sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope><sys_update_name>sp_page_2bcade4e1bed5010f61b4196bc4bcbe1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-23 13:08:00</sys_updated_on><title>Copy of Customer Service Portal (2)</title></sp_page><sys_translated_text action="delete_multiple" query="documentkey=2bcade4e1bed5010f61b4196bc4bcbe1"/></record_update>]]></payload>
+        <payload_hash>-422791683</payload_hash>
+        <record_name>copy_of_csm_index_2</record_name>
+        <reverted_from/>
+        <source>61e3847a1bc91410f61b4196bc4bcbb7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:08:00</sys_created_on>
+        <sys_id>27cade4e1bed5010f61b4196bc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e14ae1360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:08:00</sys_updated_on>
+        <type>Page</type>
+        <update_guid>6fcade4e88ed5010c23097841580e7e2</update_guid>
+        <update_guid_history>6fcade4e88ed5010c23097841580e7e2:-422791683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="copy_of_csm_index_2">011b1a8e1bed5010f61b4196bc4bcba3</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:09:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_page">sp_page</sys_db_object>
+        <sys_id>3451feae7e794e58b04ec844c17c2d81</sys_id>
+        <sys_metadata>2bcade4e1bed5010f61b4196bc4bcbe1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>copy_of_csm_index_2</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>sp_page_2bcade4e1bed5010f61b4196bc4bcbe1</sys_update_name>
+        <sys_update_version display_value="sp_page_2bcade4e1bed5010f61b4196bc4bcbe1">27cade4e1bed5010f61b4196bc4bcbe3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-23 13:09:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

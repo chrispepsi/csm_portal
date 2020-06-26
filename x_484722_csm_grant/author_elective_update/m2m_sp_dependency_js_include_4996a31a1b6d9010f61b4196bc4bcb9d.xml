@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>100</order>
+        <sp_dependency display_value="jquery-demo">5a5dd7921b6d9010f61b4196bc4bcbe2</sp_dependency>
+        <sp_js_include display_value="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">25866b1a1b6d9010f61b4196bc4bcb21</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 13:17:31</sys_created_on>
+        <sys_id>4996a31a1b6d9010f61b4196bc4bcb9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jquery-demo.https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_4996a31a1b6d9010f61b4196bc4bcb9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 13:17:31</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>m2m_sp_dependency_js_include_4996a31a1b6d9010f61b4196bc4bcb9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_dependency display_value="jquery-demo">5a5dd7921b6d9010f61b4196bc4bcbe2</sp_dependency><sp_js_include display_value="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">25866b1a1b6d9010f61b4196bc4bcb21</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-24 13:17:31</sys_created_on><sys_id>4996a31a1b6d9010f61b4196bc4bcb9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>jquery-demo.https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js</sys_name><sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package><sys_policy/><sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope><sys_update_name>m2m_sp_dependency_js_include_4996a31a1b6d9010f61b4196bc4bcb9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-24 13:17:31</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>-739804189</payload_hash>
+        <record_name>jquery-demo.https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js</record_name>
+        <reverted_from/>
+        <source>61e3847a1bc91410f61b4196bc4bcbb7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 13:17:31</sys_created_on>
+        <sys_id>4d96a31a1b6d9010f61b4196bc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172e679f5930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 13:17:31</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>8596a31a616d9010183d385a1d8ea59f</update_guid>
+        <update_guid_history>8596a31a616d9010183d385a1d8ea59f:-739804189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="jquery-demo.https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">2287a35a1b6d9010f61b4196bc4bcb9a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-24 13:21:44</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>230c2552686f483989c2fb55b4d06221</sys_id>
+        <sys_metadata>4996a31a1b6d9010f61b4196bc4bcb9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>jquery-demo.https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_js_include_4996a31a1b6d9010f61b4196bc4bcb9d</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_4996a31a1b6d9010f61b4196bc4bcb9d">4d96a31a1b6d9010f61b4196bc4bcb9f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-24 13:21:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
