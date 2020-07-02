@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>false</action>
+        <action_event>next</action_event>
+        <action_target/>
+        <action_target_ref/>
+        <active>true</active>
+        <content><![CDATA[End of the tour!]]></content>
+        <guide display_value="Demo Tour">791435c71be9d0107bd3dce9bc4bcb77</guide>
+        <implicit>false</implicit>
+        <link/>
+        <name>Conclusion</name>
+        <options/>
+        <order>999</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>concl</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>nei.P04591@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-06-26 12:54:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1a947dc71be9d0107bd3dce9bc4bcb55</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conclusion</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_1a947dc71be9d0107bd3dce9bc4bcb55</sys_update_name>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 12:54:59</sys_updated_on>
+        <target/>
+        <target_ref/>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window/>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=1a947dc71be9d0107bd3dce9bc4bcb55"/>
+</record_update>

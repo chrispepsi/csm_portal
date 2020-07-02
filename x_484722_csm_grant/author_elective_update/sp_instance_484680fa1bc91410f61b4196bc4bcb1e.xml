@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">0c4680fa1bc91410f61b4196bc4bcb1c</sp_column>
+        <sp_widget display_value="Grants List">0c4648ba1bc91410f61b4196bc4bcb7a</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-05-31 13:43:00</sys_created_on>
+        <sys_id>484680fa1bc91410f61b4196bc4bcb1e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Grants</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_instance_484680fa1bc91410f61b4196bc4bcb1e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-09 13:23:15</sys_updated_on>
+        <title>Grants</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"title": {
+		"value": "Grants",
+		"displayValue": "Grants"
+	},
+	"maximum_records_to_display": {
+		"value": "7",
+		"displayValue": "7"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=484680fa1bc91410f61b4196bc4bcb1e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sp_instance_484680fa1bc91410f61b4196bc4bcb1e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance"&gt;&lt;sp_instance action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph/&gt;&lt;id/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;short_description/&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;0c4680fa1bc91410f61b4196bc4bcb1c&lt;/sp_column&gt;&lt;sp_widget display_value="Grants List"&gt;0c4648ba1bc91410f61b4196bc4bcb7a&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-05-31 13:43:00&lt;/sys_created_on&gt;&lt;sys_id&gt;484680fa1bc91410f61b4196bc4bcb1e&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name&gt;Grants&lt;/sys_name&gt;&lt;sys_package display_value="CSM Grant" source="x_484722_csm_grant"&gt;1de344b61bc91410f61b4196bc4bcbbb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CSM Grant"&gt;1de344b61bc91410f61b4196bc4bcbbb&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_484680fa1bc91410f61b4196bc4bcb1e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-09 13:23:15&lt;/sys_updated_on&gt;&lt;title&gt;Grants&lt;/title&gt;&lt;url/&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"title": {
+		"value": "Grants",
+		"displayValue": "Grants"
+	},
+	"maximum_records_to_display": {
+		"value": "7",
+		"displayValue": "7"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=484680fa1bc91410f61b4196bc4bcb1e"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>875261672</payload_hash>
+        <record_name>Grants</record_name>
+        <reverted_from/>
+        <source>61e3847a1bc91410f61b4196bc4bcbb7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-09 13:23:16</sys_created_on>
+        <sys_id>7a08dae51bd51010f61b4196bc4bcb7c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172993fd1ca0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-09 13:23:16</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>b208dae5cdd510107c4f1dbb86ef9d7c</update_guid>
+        <update_guid_history>b208dae5cdd510107c4f1dbb86ef9d7c:875261672,37ad0432040d1410d3242c72c07d6f48:1615435474,cc4680fa37c91410c4f75abfe896ae1f:-1856449734</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">90c6d9b11ba15010f61b4196bc4bcbb0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-22 13:32:11</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>4b8f165a9f184c6c9f17e471ee838cb1</sys_id>
+        <sys_metadata>484680fa1bc91410f61b4196bc4bcb1e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grants</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>sp_instance_484680fa1bc91410f61b4196bc4bcb1e</sys_update_name>
+        <sys_update_version display_value="sp_instance_484680fa1bc91410f61b4196bc4bcb1e">7a08dae51bd51010f61b4196bc4bcb7c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-22 13:32:11</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

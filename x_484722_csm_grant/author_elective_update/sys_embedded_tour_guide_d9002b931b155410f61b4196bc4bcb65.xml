@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="DELETE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>csmg?id=kb_view2&amp;gtd_portal_title=CSM Grant&amp;gtd_page_title=Knowledge Base</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>Demo tour</name>
+        <options/>
+        <roles/>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_portal display_value="CSM Grant">33f3087a1bc91410f61b4196bc4bcb1f</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-15 05:08:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9002b931b155410f61b4196bc4bcb65</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Demo tour</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_d9002b931b155410f61b4196bc4bcb65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-15 05:20:55</sys_updated_on>
+        <tour_id>TOUR0000100</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>cbf51b83db2b081442b321c4059619e1</instance_id>
+        <instance_name>jsoldev</instance_name>
+        <name>sys_embedded_tour_guide_d9002b931b155410f61b4196bc4bcb65</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>csmg?id=kb_view2&amp;gtd_portal_title=CSM Grant&amp;gtd_page_title=Knowledge Base</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>Demo tour</name>
+        <options/>
+        <roles/>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_portal display_value="CSM Grant">33f3087a1bc91410f61b4196bc4bcb1f</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-15 05:08:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d9002b931b155410f61b4196bc4bcb65</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Demo tour</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_d9002b931b155410f61b4196bc4bcb65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-15 05:20:55</sys_updated_on>
+        <tour_id>TOUR0000100</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+</record_update>]]></payload>
+        <payload_hash>1764381299</payload_hash>
+        <record_name>Demo tour</record_name>
+        <reverted_from/>
+        <source>0da294c71b65d0107bd3dce9bc4bcba4</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>nei.P04591@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-06-26 05:47:11</sys_created_on>
+        <sys_id>6ba2d8c71b65d0107bd3dce9bc4bcb66</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>172ef2a60650000001</sys_recorded_at>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 05:47:11</sys_updated_on>
+        <type>Guided Tour</type>
+        <update_guid>2ba2d8c7f465d0100f42a1b0d96b1666</update_guid>
+        <update_guid_history>2ba2d8c7f465d0100f42a1b0d96b1666:1764381299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>nei.P04591@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-06-26 05:57:30</sys_created_on>
+        <sys_db_object display_value="" name="sys_embedded_tour_guide">sys_embedded_tour_guide</sys_db_object>
+        <sys_id>9e57c66888f545a6a940f99e5791d404</sys_id>
+        <sys_metadata>d9002b931b155410f61b4196bc4bcb65</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo tour</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>sys_embedded_tour_guide_d9002b931b155410f61b4196bc4bcb65</sys_update_name>
+        <sys_update_version display_value="sys_embedded_tour_guide_d9002b931b155410f61b4196bc4bcb65">6ba2d8c71b65d0107bd3dce9bc4bcb66</sys_update_version>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 05:57:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

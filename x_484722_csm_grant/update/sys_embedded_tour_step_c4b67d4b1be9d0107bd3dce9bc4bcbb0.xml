@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_step">
+    <sys_embedded_tour_step action="INSERT_OR_UPDATE">
+        <action>true</action>
+        <action_event>click</action_event>
+        <action_target/>
+        <action_target_ref display_value="xpath">37a6f54b1be9d0107bd3dce9bc4bcb83</action_target_ref>
+        <active>true</active>
+        <content><![CDATA[Select the Grant KB category.]]></content>
+        <guide display_value="Demo Tour">791435c71be9d0107bd3dce9bc4bcb77</guide>
+        <implicit>true</implicit>
+        <link/>
+        <name/>
+        <options>{"url":"/csmg?id=kb_view2"}</options>
+        <order>1</order>
+        <placement>bottom</placement>
+        <skippable>false</skippable>
+        <step_type>step</step_type>
+        <sys_class_name>sys_embedded_tour_step</sys_class_name>
+        <sys_created_by>nei.P04591@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-06-26 13:04:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4b67d4b1be9d0107bd3dce9bc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_embedded_tour_step_c4b67d4b1be9d0107bd3dce9bc4bcbb0</sys_update_name>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 13:04:06</sys_updated_on>
+        <target/>
+        <target_ref display_value="xpath">37a6f54b1be9d0107bd3dce9bc4bcb83</target_ref>
+        <title/>
+        <ui_version>dynamic</ui_version>
+        <view/>
+        <window>csmg</window>
+    </sys_embedded_tour_step>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4b67d4b1be9d0107bd3dce9bc4bcbb0"/>
+</record_update>

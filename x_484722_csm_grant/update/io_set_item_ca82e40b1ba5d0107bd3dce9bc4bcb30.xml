@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Grant 100">78de90471ba5d0107bd3dce9bc4bcb76</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>nei.P04591@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-06-26 06:56:26</sys_created_on>
+        <sys_id>ca82e40b1ba5d0107bd3dce9bc4bcb30</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Grant Variable Set1.Grant 100</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>io_set_item_ca82e40b1ba5d0107bd3dce9bc4bcb30</sys_update_name>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 06:56:26</sys_updated_on>
+        <variable_set display_value="Grant Variable Set1">cd72a40b1ba5d0107bd3dce9bc4bcb8b</variable_set>
+    </io_set_item>
+</record_update>

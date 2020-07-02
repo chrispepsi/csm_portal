@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="item_option_new_set">
+    <item_option_new_set action="INSERT_OR_UPDATE">
+        <create_roles/>
+        <description>Using  for apply</description>
+        <display_title>false</display_title>
+        <internal_name>grant_variable_set1</internal_name>
+        <layout>normal</layout>
+        <name/>
+        <order>100</order>
+        <read_roles/>
+        <set_attributes/>
+        <sys_class_name>item_option_new_set</sys_class_name>
+        <sys_created_by>nei.P04591@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-06-26 06:56:26</sys_created_on>
+        <sys_id>cd72a40b1ba5d0107bd3dce9bc4bcb8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Grant Variable Set1</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>item_option_new_set_cd72a40b1ba5d0107bd3dce9bc4bcb8b</sys_update_name>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 06:56:26</sys_updated_on>
+        <title>Grant Variable Set1</title>
+        <type>one_to_one</type>
+        <write_roles/>
+    </item_option_new_set>
+</record_update>

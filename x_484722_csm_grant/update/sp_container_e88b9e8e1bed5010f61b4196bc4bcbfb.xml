@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>CSMG Index - Container 3</name>
+        <order>3</order>
+        <sp_page display_value="csmg_index">e08b9e8e1bed5010f61b4196bc4bcbe3</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:11:04</sys_created_on>
+        <sys_id>e88b9e8e1bed5010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>CSMG Index - Container 3</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_container_e88b9e8e1bed5010f61b4196bc4bcbfb</sys_update_name>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 06:52:46</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

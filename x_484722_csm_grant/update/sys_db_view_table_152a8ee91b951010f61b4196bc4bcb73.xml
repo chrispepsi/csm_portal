@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>true</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-09 12:22:58</sys_created_on>
+        <sys_id>152a8ee91b951010f61b4196bc4bcb73</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>kb_knowledge</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_db_view_table_152a8ee91b951010f61b4196bc4bcb73</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-09 12:31:51</sys_updated_on>
+        <table>kb_knowledge</table>
+        <variable_prefix>kb</variable_prefix>
+        <view display_value="x_484722_csm_grant_detail">ece746e91b951010f61b4196bc4bcbf5</view>
+        <where_clause>kb_ cmdb_ci=gr_sys_id</where_clause>
+    </sys_db_view_table>
+</record_update>

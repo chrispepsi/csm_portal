@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_embedded_tour_guide">
+    <sys_embedded_tour_guide action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <additional_parameters/>
+        <autolaunch_order>0</autolaunch_order>
+        <context>csmg?id=kb_view2&amp;gtd_portal_title=CSM Grant&amp;gtd_page_title=Knowledge Base</context>
+        <description/>
+        <has_concl>true</has_concl>
+        <has_intro>true</has_intro>
+        <name>Demo Tour</name>
+        <options/>
+        <roles/>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_portal display_value="CSM Grant">33f3087a1bc91410f61b4196bc4bcb1f</sp_portal>
+        <status>published</status>
+        <sys_class_name>sys_embedded_tour_guide</sys_class_name>
+        <sys_created_by>nei.P04591@jsol.co.jp</sys_created_by>
+        <sys_created_on>2020-06-26 12:53:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>791435c71be9d0107bd3dce9bc4bcb77</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Demo Tour</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_embedded_tour_guide_791435c71be9d0107bd3dce9bc4bcb77</sys_update_name>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 13:05:07</sys_updated_on>
+        <tour_id>TOUR0000014</tour_id>
+        <type>service_portal</type>
+    </sys_embedded_tour_guide>
+</record_update>

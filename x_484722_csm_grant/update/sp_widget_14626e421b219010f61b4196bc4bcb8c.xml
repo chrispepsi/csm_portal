@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function($rootScope,$scope,spUtil) {
+	/* widget controller */
+	var c = this;
+
+	$(document).ready(function(){
+		$("button").click(function(){
+			$("#div1").fadeIn();
+			$("#div2").fadeIn("slow");
+			$("#div3").fadeIn(3000);
+		});
+	});
+
+}
+]]></client_script>
+        <controller_as>c</controller_as>
+        <css>h3.panel-title {
+  font-size:20px;
+  padding-top:5px;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>grant_static_page</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>Grant Static Page</name>
+        <option_schema>[{"hint":"Specify a title for the Notes List widget","name":"title","section":"other","default_value":"Notes","label":"Title","type":"string"},{"hint":"Select the maximum number of records to display","name":"maximum_records_to_display","section":"other","default_value":"5","label":"Maximum records to display","type":"choice","choices":[{"label":"2","value":"2"},{"label":"3","value":"3"},{"label":"5","value":"5"},{"label":"7","value":"7"},{"label":"11","value":"11"},{"label":"13","value":"13"},{"label":"17","value":"17"}]}]</option_schema>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+
+}
+)();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-23 13:41:05</sys_created_on>
+        <sys_id>14626e421b219010f61b4196bc4bcb8c</sys_id>
+        <sys_mod_count>21</sys_mod_count>
+        <sys_name>Grant Static Page</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_widget_14626e421b219010f61b4196bc4bcb8c</sys_update_name>
+        <sys_updated_by>nei.P04591@jsol.co.jp</sys_updated_by>
+        <sys_updated_on>2020-06-26 06:03:14</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default">
+  <div class="panel-heading clearfix">
+    <h3 class="panel-title pull-left">
+      {{::c.options.title}}
+    </h3>
+  </div>
+  <div class="container"> 
+    <div class="row"  > 
+      <div class="text-center ">
+        <h1>ネットで簡単！補助金申請</h1>
+        <p>jGrantsは、補助金の申請・届出ができる電子申請システムです。<br>
+          インターネットを経由するため、<strong>いつでも・どこでも</strong>　手続きができます。<br>
+          ぜひjGrantsをご利用ください。</p>
+        <button type="button" class="btn btn-primary" href="/flow">申請の流れを見る
+        </button><br>
+      </div>
+    </div>
+  </div><br>
+
+  <div style="border:1px solid #CCC"></div> <br>
+  <body>
+    <p>FadeIn Demo</p>
+    <button>フェードイン</button>
+    <br><br>
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+  </body>
+
+</div>
+]]></template>
+    </sp_widget>
+</record_update>
