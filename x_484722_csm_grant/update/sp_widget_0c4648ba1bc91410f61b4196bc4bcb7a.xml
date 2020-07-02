@@ -6,15 +6,40 @@
 	var c = this;
 	// Use a position indicator to know which record to update
 	c.notePos = 0;
-	
+	var url = window.parent.location.href;
+	var str = url.split(".")[0];
+
+	c.data.row_count = 5;
+	c.data.window_size = 2;
+	c.data.p = 1;
+	//	c.data.page_index = data.p - 1;
+	c.data.window_start = 0;
+	c.data.window_end = 2;
+	c.data.num_pages = 3;
+	$scope.pagedata = c.data.notes.slice(0, c.data.window_size);
+
 	console.log(c.data);
 	c.selectItem = function(idx) {  
 		// Set the position indicator to the index value passed in on select
 		c.notePos = idx;
 		var id = c.data.notes[idx].sys_id;
-		c.data.url='https://dev64106.service-now.com/csmg?id=grants_details&sys_id='+id;
+		c.data.url = str + '.service-now.com/csmg?id=grants_details&sys_id='+id;
 		console.log('Note ID: ' + id);
 		$rootScope.noteID = id;
+	}	;
+
+	$scope.getNumber = function(num) {
+		return new Array(num);
+	};
+	$scope.setPageNum = function(num) {
+		c.data.p = num;
+		getData();
+	};
+
+	function getData() {
+		var start = (c.data.p-1)*c.data.window_size
+		var end = Math.min(c.data.row_count, c.data.p*c.data.window_size)
+		$scope.pagedata = c.data.notes.slice(start, end)
 	}
 
 }
@@ -23,6 +48,69 @@
         <css>h3.panel-title {
   font-size:20px;
   padding-top:5px;
+}
+.panel {
+position: relative;
+}
+
+.panel-heading i {
+  cursor: pointer;
+  position: absolute;
+  padding: 10px;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+.disabled-filter {
+	color: #A0A0A0;
+}
+
+.list-group-item.ng-enter {
+  transition: all 1s;
+  -webkit-transition: all 1s;
+
+  background-color: #c0dcfa;
+}
+
+.list-group-item.ng-enter-active {
+  background-color: #fff;
+}
+
+.hide-x-overflow {
+  overflow-x: hidden;
+}
+
+.translated-html &amp;gt; p {
+  margin: 0px;
+  padding: 0px;
+}
+
+IMG {
+  max-width: 320px;
+  max-height: 240px;
+}
+
+IMG.img-sm {
+  max-height: 40px;
+  max-width: 40px;
+}
+
+.filter-box {
+  margin-top: 10px;
+}
+
+.panel-footer {
+  .number-shown-label {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    display: inline-block;
+  }
+
+  a {
+    color: inherit;
+  }
 }</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
@@ -66,14 +154,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-05-31 13:43:00</sys_created_on>
         <sys_id>0c4648ba1bc91410f61b4196bc4bcb7a</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>116</sys_mod_count>
         <sys_name>Grants List</sys_name>
         <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
         <sys_policy/>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_update_name>sp_widget_0c4648ba1bc91410f61b4196bc4bcb7a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 00:56:47</sys_updated_on>
+        <sys_updated_on>2020-07-01 05:53:25</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default">
   <div class="panel-heading clearfix">
     <h3 class="panel-title pull-left">
@@ -87,15 +175,16 @@
   <table class="table table-bordered table-hover" style="min-width:800px;">
     <thead>
       <tr class="info">
-        <th scope="col">No.</th>
-        <th scope="col">補助金名</th>
-        <th scope="col">目的・概要</th>
-        <th scope="col">対象者</th>
-        <th scope="col">募集期間</th>
+        <th scope="col"width="5%">No.</th>
+        <th scope="col"width="20%">補助金名</th>
+        <th scope="col"width="35%">目的・概要</th>
+        <th scope="col"width="30%">対象者</th>
+        <th scope="col"width="10%">募集期間</th>
       </tr>
     </thead>
+
     <tbody>
-      <tr ng-click="c.selectItem($index)" ng-repeat="record in data.notes | filter: noteFilter">
+      <tr ng-click="c.selectItem($index)" ng-repeat="record in pagedata | filter: noteFilter">
         <td>{{ record.name }}</td>
         <td><a href="{{c.data.url}}">{{ record.short_description }}</a></td>
         <td>{{ record.u_purpose_outline_summary }}</td>
@@ -104,7 +193,21 @@
       </tr>
     </tbody>
   </table><br><br>
-
+  
+ <div class="panel-footer"  ng-if="data.row_count">
+    <div class="btn-toolbar m-r pull-left">
+      <div class="btn-group">
+        <a ng-disabled="data.p == 1" href="javascript:void(0)" ng-click="setPageNum(data.p - 1)" class="btn btn-default" aria-label="${Previous page} {{data.p == 1 ? '${disabled}' : ''}}" tabindex="{{(data.p == 1) ? -1 : 0}}"><i class="fa fa-chevron-left"></i></a>
+      </div>
+      <div ng-if="data.num_pages > 1 && data.num_pages < 20" class="btn-group">
+        <a ng-repeat="i in getNumber(data.num_pages) track by $index" ng-click="setPageNum($index + 1)" href="javascript:void(0)" ng-class="{active: ($index + 1) == data.p}" type="button" class="btn btn-default" aria-label="${Page} {{$index + 1}}">{{$index + 1}}</a>
+      </div>
+      <div class="btn-group">
+        <a ng-disabled="data.p == data.num_pages" href="javascript:void(0)" ng-click="setPageNum(data.p + 1)" class="btn btn-default" aria-label="${Next page} {{data.p == data.num_pages ? '${disabled}' : ''}}" tabindex="{{(data.p == data.num_pages) ? -1 : 0}}"><i class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <span class="clearfix"></span>
+  </div>
 
 </div>]]></template>
     </sp_widget>

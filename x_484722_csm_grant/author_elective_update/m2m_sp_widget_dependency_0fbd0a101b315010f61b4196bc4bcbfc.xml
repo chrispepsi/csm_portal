@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency">
+    <m2m_sp_widget_dependency action="DELETE">
+        <sp_dependency display_value="angular-pagination">c00d02101b315010f61b4196bc4bcb7f</sp_dependency>
+        <sp_widget display_value="Grant Details">7083ddfd1b615010f61b4196bc4bcb5d</sp_widget>
+        <sys_class_name>m2m_sp_widget_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:57:14</sys_created_on>
+        <sys_id>0fbd0a101b315010f61b4196bc4bcbfc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-pagination.Grant Details</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>m2m_sp_widget_dependency_0fbd0a101b315010f61b4196bc4bcbfc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 11:57:14</sys_updated_on>
+    </m2m_sp_widget_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>m2m_sp_widget_dependency_0fbd0a101b315010f61b4196bc4bcbfc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_widget_dependency"><m2m_sp_widget_dependency action="INSERT_OR_UPDATE"><sp_dependency display_value="angular-pagination">c00d02101b315010f61b4196bc4bcb7f</sp_dependency><sp_widget display_value="Grant Details">7083ddfd1b615010f61b4196bc4bcb5d</sp_widget><sys_class_name>m2m_sp_widget_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-30 11:57:14</sys_created_on><sys_id>0fbd0a101b315010f61b4196bc4bcbfc</sys_id><sys_mod_count>0</sys_mod_count><sys_name>angular-pagination.Grant Details</sys_name><sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package><sys_policy/><sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope><sys_update_name>m2m_sp_widget_dependency_0fbd0a101b315010f61b4196bc4bcbfc</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-30 11:57:14</sys_updated_on></m2m_sp_widget_dependency></record_update>]]></payload>
+        <payload_hash>1758082866</payload_hash>
+        <record_name>angular-pagination.Grant Details</record_name>
+        <reverted_from/>
+        <source>1432544f1b251410f61b4196bc4bcbdf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:57:14</sys_created_on>
+        <sys_id>87bd0a101b315010f61b4196bc4bcbff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17305169b8d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 11:57:14</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>cfbd0a10b93150106a27ef1d5370cffe</update_guid>
+        <update_guid_history>cfbd0a10b93150106a27ef1d5370cffe:1758082866</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="angular-pagination.Grant Details">f50e8e101b315010f61b4196bc4bcb54</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:58:30</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_widget_dependency">m2m_sp_widget_dependency</sys_db_object>
+        <sys_id>2be020e0866f43e88a43e6dd9bb68c40</sys_id>
+        <sys_metadata>0fbd0a101b315010f61b4196bc4bcbfc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-pagination.Grant Details</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>m2m_sp_widget_dependency_0fbd0a101b315010f61b4196bc4bcbfc</sys_update_name>
+        <sys_update_version display_value="m2m_sp_widget_dependency_0fbd0a101b315010f61b4196bc4bcbfc">87bd0a101b315010f61b4196bc4bcbff</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 11:58:30</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
