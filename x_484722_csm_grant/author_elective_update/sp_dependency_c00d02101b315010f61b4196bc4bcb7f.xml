@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency">
+    <sp_dependency action="DELETE">
+        <module/>
+        <name>angular-pagination</name>
+        <page_load>true</page_load>
+        <sp_portals>33f3087a1bc91410f61b4196bc4bcb1f</sp_portals>
+        <sys_class_name>sp_dependency</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:54:40</sys_created_on>
+        <sys_id>c00d02101b315010f61b4196bc4bcb7f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>angular-pagination</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_dependency_c00d02101b315010f61b4196bc4bcb7f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 11:55:59</sys_updated_on>
+    </sp_dependency>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>sp_dependency_c00d02101b315010f61b4196bc4bcb7f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_dependency"><sp_dependency action="INSERT_OR_UPDATE"><module/><name>angular-pagination</name><page_load>true</page_load><sp_portals>33f3087a1bc91410f61b4196bc4bcb1f</sp_portals><sys_class_name>sp_dependency</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-30 11:54:40</sys_created_on><sys_id>c00d02101b315010f61b4196bc4bcb7f</sys_id><sys_mod_count>1</sys_mod_count><sys_name>angular-pagination</sys_name><sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package><sys_policy/><sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope><sys_update_name>sp_dependency_c00d02101b315010f61b4196bc4bcb7f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-30 11:55:59</sys_updated_on></sp_dependency></record_update>]]></payload>
+        <payload_hash>82453651</payload_hash>
+        <record_name>angular-pagination</record_name>
+        <reverted_from/>
+        <source>1432544f1b251410f61b4196bc4bcbdf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:55:59</sys_created_on>
+        <sys_id>747d86101b315010f61b4196bc4bcb0b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>173051576d30000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 11:55:59</sys_updated_on>
+        <type>Widget Dependency</type>
+        <update_guid>b47d02109031501009b76bd7f656748d</update_guid>
+        <update_guid_history>b47d02109031501009b76bd7f656748d:82453651,f12dc25cc6fd1010d96006587638dc25:-1163652017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="angular-pagination">7bf2f8cd1bf99010f61b4196bc4bcb56</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 13:16:14</sys_created_on>
+        <sys_db_object display_value="" name="sp_dependency">sp_dependency</sys_db_object>
+        <sys_id>02cd56eed62b4e4580d2b38929ed9259</sys_id>
+        <sys_metadata>c00d02101b315010f61b4196bc4bcb7f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-pagination</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>sp_dependency_c00d02101b315010f61b4196bc4bcb7f</sys_update_name>
+        <sys_update_version display_value="sp_dependency_c00d02101b315010f61b4196bc4bcb7f">747d86101b315010f61b4196bc4bcb0b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 13:16:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

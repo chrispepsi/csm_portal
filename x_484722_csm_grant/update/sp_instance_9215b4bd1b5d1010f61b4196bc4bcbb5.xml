@@ -11,7 +11,7 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">7815f8bd1b5d1010f61b4196bc4bcbe4</sp_column>
-        <sp_widget display_value="Grant Detail">40e4c2691b951010f61b4196bc4bcb41</sp_widget>
+        <sp_widget display_value="Grant Preview Demo">40e4c2691b951010f61b4196bc4bcb41</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-10 00:49:27</sys_created_on>

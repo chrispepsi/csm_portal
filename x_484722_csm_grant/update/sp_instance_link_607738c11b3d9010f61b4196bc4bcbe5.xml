@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>th</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>3</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>jQuery Bootstrap Sample</short_description>
+        <size>md</size>
+        <sp_column display_value="1">ac8b9e8e1bed5010f61b4196bc4bcbfe</sp_column>
+        <sp_page display_value="grant_jq_eg">2eca70961ba59010f61b4196bc4bcbfb</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 13:35:40</sys_created_on>
+        <sys_id>607738c11b3d9010f61b4196bc4bcbe5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Static Page</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sp_instance_link_607738c11b3d9010f61b4196bc4bcbe5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 13:40:29</sys_updated_on>
+        <title>Static Page</title>
+        <type>page</type>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=607738c11b3d9010f61b4196bc4bcbe5"/>
+</record_update>

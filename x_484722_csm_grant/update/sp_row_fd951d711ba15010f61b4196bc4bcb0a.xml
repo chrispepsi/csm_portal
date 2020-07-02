@@ -3,7 +3,7 @@
         <class_name/>
         <order>1</order>
         <sp_column/>
-        <sp_container display_value="Grants Details - Container 1">b33591711ba15010f61b4196bc4bcbec</sp_container>
+        <sp_container display_value="Grant Detail - Container 1">b33591711ba15010f61b4196bc4bcbec</sp_container>
         <sys_class_name>sp_row</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-22 13:27:07</sys_created_on>

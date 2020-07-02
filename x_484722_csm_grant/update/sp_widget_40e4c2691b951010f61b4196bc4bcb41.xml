@@ -4,17 +4,6 @@
         <client_script><![CDATA[function($rootScope,$scope,$sce,spUtil) {
 	/* widget controller */
 	var c = this;
-	// Use a position indicator to know which record to update
-	c.notePos = 0;
-	console.log(c.data);
-
-	c.u_purpose_outline_summary = $sce.trustAsHtml(c.data.note.u_purpose_outline_summary.replace(/\n/g, '<br/>'));
-	c.u_purpose_outline = $sce.trustAsHtml(c.data.note.u_purpose_outline.replace(/\n/g, '<br/>'));
-	c.u_target_person = $sce.trustAsHtml(c.data.note.u_target_person.replace(/\n/g, '<br/>'));
-	c.u_contact_information = $sce.trustAsHtml(c.data.note.u_contact_information.replace(/\n/g, '<br/>'));
-
-
-
 }
 ]]></client_script>
         <controller_as>c</controller_as>
@@ -28,31 +17,14 @@
         <docs/>
         <field_list/>
         <has_preview>true</has_preview>
-        <id>grant_detail</id>
+        <id>grant_preview_demo</id>
         <internal>false</internal>
         <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
-        <name>Grant Detail</name>
+        <name>Grant Preview Demo</name>
         <option_schema>[{"hint":"Specify a title for the Notes List widget","name":"title","section":"other","default_value":"Notes","label":"Title","type":"string"},{"hint":"Select the maximum number of records to display","name":"maximum_records_to_display","section":"other","default_value":"5","label":"Maximum records to display","type":"choice","choices":[{"label":"2","value":"2"},{"label":"3","value":"3"},{"label":"5","value":"5"},{"label":"7","value":"7"},{"label":"11","value":"11"},{"label":"13","value":"13"},{"label":"17","value":"17"}]}]</option_schema>
         <public>true</public>
         <roles/>
         <script><![CDATA[(function() {
-
-	data.note = {};
-	var sys_id = $sp.getParameter("sys_id")
-	var noteGR = new GlideRecord('pc_product_cat_item');
-	noteGR.addQuery('model', 'bd835b5d1b055010f61b4196bc4bcbac');
-	noteGR.addQuery('sys_id', sys_id);
-	noteGR.orderBy('name');
-	noteGR.setLimit(options.maximum_records_to_display);
-	noteGR.query();
-	if (noteGR.next()) {
-
-		$sp.getRecordDisplayValues(data.note, noteGR, 'short_description,u_purpose_outline_summary,u_purpose_outline,u_target_person,u_contact_information,u_recruitment_period,sys_id');
-
-		data.note.name = noteGR.getValue('name');
-		//data.note.u_contact_information=data.note.u_contact_information.replace('流通', '<br/>');
-	}
-
 
 }
 )();]]></script>
@@ -61,14 +33,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-09 11:59:31</sys_created_on>
         <sys_id>40e4c2691b951010f61b4196bc4bcb41</sys_id>
-        <sys_mod_count>119</sys_mod_count>
-        <sys_name>Grant Detail</sys_name>
+        <sys_mod_count>121</sys_mod_count>
+        <sys_name>Grant Preview Demo</sys_name>
         <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
         <sys_policy/>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_update_name>sp_widget_40e4c2691b951010f61b4196bc4bcb41</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-06-24 00:58:48</sys_updated_on>
+        <sys_updated_on>2020-07-02 13:26:48</sys_updated_on>
         <template><![CDATA[<div class="panel panel-default">
   <div class="panel-heading clearfix">
     <h3 class="panel-title pull-left">

@@ -11,7 +11,7 @@
         <short_description/>
         <size>md</size>
         <sp_column display_value="1">69c719f11ba15010f61b4196bc4bcb38</sp_column>
-        <sp_widget display_value="Grants List">0c4648ba1bc91410f61b4196bc4bcb7a</sp_widget>
+        <sp_widget display_value="Grant List">0c4648ba1bc91410f61b4196bc4bcb7a</sp_widget>
         <sys_class_name>sp_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-06-22 13:36:49</sys_created_on>

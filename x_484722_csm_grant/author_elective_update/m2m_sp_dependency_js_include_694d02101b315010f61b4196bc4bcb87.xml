@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="DELETE">
+        <order>100</order>
+        <sp_dependency display_value="angular-pagination">c00d02101b315010f61b4196bc4bcb7f</sp_dependency>
+        <sp_js_include display_value="https://raw.githubusercontent.com/michaelbromley/angularUtils/master/src/directives/pagination/dirPagination.js">3c3d82101b315010f61b4196bc4bcbfe</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:55:13</sys_created_on>
+        <sys_id>694d02101b315010f61b4196bc4bcb87</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-pagination.https://raw.githubusercontent.com/michaelbromley/angularUtils/master/src/directives/pagination/dirPagination.js</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_694d02101b315010f61b4196bc4bcb87</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 11:55:13</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</application>
+        <file_path/>
+        <instance_id>64eebd9cdb5b9fc4439ef70fbf961905</instance_id>
+        <instance_name>dev64106</instance_name>
+        <name>m2m_sp_dependency_js_include_694d02101b315010f61b4196bc4bcb87</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include"><m2m_sp_dependency_js_include action="INSERT_OR_UPDATE"><order>100</order><sp_dependency display_value="angular-pagination">c00d02101b315010f61b4196bc4bcb7f</sp_dependency><sp_js_include display_value="https://raw.githubusercontent.com/michaelbromley/angularUtils/master/src/directives/pagination/dirPagination.js">3c3d82101b315010f61b4196bc4bcbfe</sp_js_include><sys_class_name>m2m_sp_dependency_js_include</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-06-30 11:55:13</sys_created_on><sys_id>694d02101b315010f61b4196bc4bcb87</sys_id><sys_mod_count>0</sys_mod_count><sys_name>angular-pagination.https://raw.githubusercontent.com/michaelbromley/angularUtils/master/src/directives/pagination/dirPagination.js</sys_name><sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package><sys_policy/><sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope><sys_update_name>m2m_sp_dependency_js_include_694d02101b315010f61b4196bc4bcb87</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-06-30 11:55:13</sys_updated_on></m2m_sp_dependency_js_include></record_update>]]></payload>
+        <payload_hash>43570587</payload_hash>
+        <record_name>angular-pagination.https://raw.githubusercontent.com/michaelbromley/angularUtils/master/src/directiv</record_name>
+        <reverted_from/>
+        <source>1432544f1b251410f61b4196bc4bcbdf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-06-30 11:55:13</sys_created_on>
+        <sys_id>7d4d02101b315010f61b4196bc4bcb89</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1730514c39a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-06-30 11:55:13</sys_updated_on>
+        <type>Dependency JS Includes</type>
+        <update_guid>b54d0210343150108a35ba34494c2b89</update_guid>
+        <update_guid_history>b54d0210343150108a35ba34494c2b89:43570587</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="angular-pagination.https://raw.githubusercontent.com/michaelbromley/angularUtils">bff2f8cd1bf99010f61b4196bc4bcb52</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-02 13:16:14</sys_created_on>
+        <sys_db_object display_value="" name="m2m_sp_dependency_js_include">m2m_sp_dependency_js_include</sys_db_object>
+        <sys_id>53dbdd95b731490aabd55bdb548e9751</sys_id>
+        <sys_metadata>694d02101b315010f61b4196bc4bcb87</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular-pagination.https://raw.githubusercontent.com/michaelbromley/angularUtils/master/src/directives/pagination/dirPagination.js</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_scope_delete display_value="">4e2fd30990dd4298bbefa16d0f4d2ea1</sys_scope_delete>
+        <sys_update_name>m2m_sp_dependency_js_include_694d02101b315010f61b4196bc4bcb87</sys_update_name>
+        <sys_update_version display_value="m2m_sp_dependency_js_include_694d02101b315010f61b4196bc4bcb87">7d4d02101b315010f61b4196bc4bcb89</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-02 13:16:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
