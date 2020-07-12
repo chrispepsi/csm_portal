@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>timezone_action</internal_name>
+        <label_cache>[{"name":"{{action.icidentno}}","label":"action➛icidentSysID","type":"action","ref":""},{"name":"{{action.icidentsysid}}","label":"action➛icidentSysID","type":"action","ref":""},{"name":"{{step[4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80].record}}","label":"step➛Look Up Record step➛Incident Record","type":"step","ref":"incident"},{"name":"{{step[151b8700-a933-4aca-b493-adefa5e0db8b].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[151b8700-a933-4aca-b493-adefa5e0db8b].newtime}}","label":"step➛Script step➛newTime","type":"step","ref":""},{"name":"{{step[eb6aae27-5ec1-4089-95d4-881d234b1362].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[eb6aae27-5ec1-4089-95d4-881d234b1362].tmp}}","label":"step➛Script step➛tmp","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>7b23b3801bca5010f61b4196bc4bcbd3</latest_snapshot>
+        <master_snapshot>21d9ba441b0a5010f61b4196bc4bcb85</master_snapshot>
+        <name>Timezone Action</name>
+        <natlang/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:37:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>37b73ac01b0a5010f61b4196bc4bcb97</sys_id>
+        <sys_mod_count>68</sys_mod_count>
+        <sys_name>Timezone Action</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_37b73ac01b0a5010f61b4196bc4bcb97</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:41</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=37b73ac01b0a5010f61b4196bc4bcb97"/>
+    <sys_variable_value action="delete_multiple" query="document_key=37b73ac01b0a5010f61b4196bc4bcb97"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=37b73ac01b0a5010f61b4196bc4bcb97^sys_idNOT IN03a9f6441b0a5010f61b4196bc4bcbe9,5ba9f6441b0a5010f61b4196bc4bcbfc,c5d7f2041b0a5010f61b4196bc4bcbdb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action>
+        <cid>4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>03a9f6441b0a5010f61b4196bc4bcbe9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:12:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=03a9f6441b0a5010f61b4196bc4bcbe9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>03a9f6441b0a5010f61b4196bc4bcbe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>97a9f6441b0a5010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=03a9f6441b0a5010f61b4196bc4bcbe9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>03a9f6441b0a5010f61b4196bc4bcbe9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>17a9f6441b0a5010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>sys_id={{action.icidentsysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>03a9f6441b0a5010f61b4196bc4bcbe9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>53a9f6441b0a5010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action>
+        <cid>8662905c-d9b2-4e31-9f75-1a45821a872f</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>5ba9f6441b0a5010f61b4196bc4bcbfc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:12:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5ba9f6441b0a5010f61b4196bc4bcbfc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ba9f6441b0a5010f61b4196bc4bcbfc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>53a93a441b0a5010f61b4196bc4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5ba9f6441b0a5010f61b4196bc4bcbfc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5ba9f6441b0a5010f61b4196bc4bcbfc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>dfa93a441b0a5010f61b4196bc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5ba9f6441b0a5010f61b4196bc4bcbfc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>5ba93a441b0a5010f61b4196bc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>5ba9f6441b0a5010f61b4196bc4bcbfc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>1fa93a441b0a5010f61b4196bc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>short_description={{step[151b8700-a933-4aca-b493-adefa5e0db8b].newtime}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ba9f6441b0a5010f61b4196bc4bcbfc^sys_idNOT INd7a93a441b0a5010f61b4196bc4bcb00"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>5ba9f6441b0a5010f61b4196bc4bcbfc</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>d7a93a441b0a5010f61b4196bc4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action>
+        <cid>151b8700-a933-4aca-b493-adefa5e0db8b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:38:20</sys_created_on>
+        <sys_id>c5d7f2041b0a5010f61b4196bc4bcbdb</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c5d7f2041b0a5010f61b4196bc4bcbdb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c5d7f2041b0a5010f61b4196bc4bcbdb</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:38:21</sys_created_on>
+        <sys_id>0dd7f2041b0a5010f61b4196bc4bcbe3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //var gs = new GlideSystem();
+  //var myUserObject = gs.getUser();
+  //var tz = myUserObject.getTZ());
+
+  //var time = new GlideDateTime(); //utc
+  //var gcdt = new GlideCalendarDateTime(time);
+  //var zt = gs.getSession().getTimeZone()
+  //time.setTZ(tz); //set time based on tz variable
+  //var timeZoneOffSet = time.getTZOffset(); // calculate offset from utc
+  //time.setNumericValue(time.getNumericValue() + timeZoneOffSet); 
+  //outputs.newTime = time.toString();
+
+  //var gdt = new GlideDateTime(); //Get the current time in the Pacific time-zone
+  //outputs.newTime = gdt.getDisplayValue().toString();
+
+  var session = gs.getSession();
+  var zoneName = session.getTimeZoneName();
+  outputs.newtime = zoneName;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c5d7f2041b0a5010f61b4196bc4bcbdb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:38:21</sys_created_on>
+        <sys_id>49d7f2041b0a5010f61b4196bc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:38:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c5d7f2041b0a5010f61b4196bc4bcbdb^sys_idNOT IN0fa9f6441b0a5010f61b4196bc4bcbdd"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eadc85f0-3af6-47d8-b648-0d7f51e1824c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>newtime</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>newTime</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c5d7f2041b0a5010f61b4196bc4bcbdb</model>
+        <model_id>c5d7f2041b0a5010f61b4196bc4bcbdb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c5d7f2041b0a5010f61b4196bc4bcbdb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:24</sys_created_on>
+        <sys_id>0fa9f6441b0a5010f61b4196bc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_action_input action="delete_multiple" query="model=37b73ac01b0a5010f61b4196bc4bcb97^sys_idNOT INb62a3a441b0a5010f61b4196bc4bcb3c"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a0083bf3-8794-4d76-8d50-b889e0d278e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>icidentsysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>icidentSysID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</model>
+        <model_id>37b73ac01b0a5010f61b4196bc4bcb97</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_37b73ac01b0a5010f61b4196bc4bcb97</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:48:34</sys_created_on>
+        <sys_id>b62a3a441b0a5010f61b4196bc4bcb3c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=37b73ac01b0a5010f61b4196bc4bcb97^sys_idNOT IN03a9f6441b0a5010f61b4196bc4bcbe9,5ba9f6441b0a5010f61b4196bc4bcbfc,c5d7f2041b0a5010f61b4196bc4bcbdb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action>
+        <cid>4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>03a9f6441b0a5010f61b4196bc4bcbe9</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:12:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=03a9f6441b0a5010f61b4196bc4bcbe9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>03a9f6441b0a5010f61b4196bc4bcbe9</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>97a9f6441b0a5010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=03a9f6441b0a5010f61b4196bc4bcbe9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>03a9f6441b0a5010f61b4196bc4bcbe9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>17a9f6441b0a5010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>sys_id={{action.icidentsysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>03a9f6441b0a5010f61b4196bc4bcbe9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>53a9f6441b0a5010f61b4196bc4bcbfb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action>
+        <cid>8662905c-d9b2-4e31-9f75-1a45821a872f</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>5ba9f6441b0a5010f61b4196bc4bcbfc</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:12:54</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5ba9f6441b0a5010f61b4196bc4bcbfc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ba9f6441b0a5010f61b4196bc4bcbfc</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>53a93a441b0a5010f61b4196bc4bcb02</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5ba9f6441b0a5010f61b4196bc4bcbfc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>5ba9f6441b0a5010f61b4196bc4bcbfc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>dfa93a441b0a5010f61b4196bc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>5ba9f6441b0a5010f61b4196bc4bcbfc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>5ba93a441b0a5010f61b4196bc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>5ba9f6441b0a5010f61b4196bc4bcbfc</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>1fa93a441b0a5010f61b4196bc4bcb01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>short_description={{step[151b8700-a933-4aca-b493-adefa5e0db8b].newtime}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5ba9f6441b0a5010f61b4196bc4bcbfc^sys_idNOT INd7a93a441b0a5010f61b4196bc4bcb00"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>5ba9f6441b0a5010f61b4196bc4bcbfc</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:25</sys_created_on>
+        <sys_id>d7a93a441b0a5010f61b4196bc4bcb00</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:25</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action>
+        <cid>151b8700-a933-4aca-b493-adefa5e0db8b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:38:20</sys_created_on>
+        <sys_id>c5d7f2041b0a5010f61b4196bc4bcbdb</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=c5d7f2041b0a5010f61b4196bc4bcbdb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c5d7f2041b0a5010f61b4196bc4bcbdb</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:38:21</sys_created_on>
+        <sys_id>0dd7f2041b0a5010f61b4196bc4bcbe3</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //var gs = new GlideSystem();
+  //var myUserObject = gs.getUser();
+  //var tz = myUserObject.getTZ());
+
+  //var time = new GlideDateTime(); //utc
+  //var gcdt = new GlideCalendarDateTime(time);
+  //var zt = gs.getSession().getTimeZone()
+  //time.setTZ(tz); //set time based on tz variable
+  //var timeZoneOffSet = time.getTZOffset(); // calculate offset from utc
+  //time.setNumericValue(time.getNumericValue() + timeZoneOffSet); 
+  //outputs.newTime = time.toString();
+
+  //var gdt = new GlideDateTime(); //Get the current time in the Pacific time-zone
+  //outputs.newTime = gdt.getDisplayValue().toString();
+
+  var session = gs.getSession();
+  var zoneName = session.getTimeZoneName();
+  outputs.newtime = zoneName;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>c5d7f2041b0a5010f61b4196bc4bcbdb</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:38:21</sys_created_on>
+        <sys_id>49d7f2041b0a5010f61b4196bc4bcbe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:38:21</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=c5d7f2041b0a5010f61b4196bc4bcbdb^sys_idNOT IN0fa9f6441b0a5010f61b4196bc4bcbdd"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eadc85f0-3af6-47d8-b648-0d7f51e1824c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>newtime</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>newTime</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">c5d7f2041b0a5010f61b4196bc4bcbdb</model>
+        <model_id>c5d7f2041b0a5010f61b4196bc4bcbdb</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_c5d7f2041b0a5010f61b4196bc4bcbdb</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:46:24</sys_created_on>
+        <sys_id>0fa9f6441b0a5010f61b4196bc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:46:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_37b73ac01b0a5010f61b4196bc4bcb97^sys_idNOT INf62a3a441b0a5010f61b4196bc4bcb41"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>icidentsysid</element>
+        <help/>
+        <hint/>
+        <label>icidentSysID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_37b73ac01b0a5010f61b4196bc4bcb97</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:48:34</sys_created_on>
+        <sys_id>f62a3a441b0a5010f61b4196bc4bcb41</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:34</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=37b73ac01b0a5010f61b4196bc4bcb97^sys_idNOT IN42d9fa441b0a5010f61b4196bc4bcb1a"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"42d9fa441b0a5010f61b4196bc4bcb1a","name":"plan"}}</plan>
+        <snapshot>7b23b3801bca5010f61b4196bc4bcbd3</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>42d9fa441b0a5010f61b4196bc4bcb1a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:41</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>timezone_action</internal_name>
+        <label_cache>[{"name":"{{action.icidentno}}","label":"action➛icidentSysID","type":"action","ref":""},{"name":"{{action.icidentsysid}}","label":"action➛icidentSysID","type":"action","ref":""},{"name":"{{step[4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80].record}}","label":"step➛Look Up Record step➛Incident Record","type":"step","ref":"incident"},{"name":"{{step[151b8700-a933-4aca-b493-adefa5e0db8b].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[151b8700-a933-4aca-b493-adefa5e0db8b].newtime}}","label":"step➛Script step➛newTime","type":"step","ref":""},{"name":"{{step[eb6aae27-5ec1-4089-95d4-881d234b1362].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[eb6aae27-5ec1-4089-95d4-881d234b1362].tmp}}","label":"step➛Script step➛tmp","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Timezone Action</name>
+        <natlang/>
+        <outputs/>
+        <parent_action display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>21d9ba441b0a5010f61b4196bc4bcb85</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:58:42</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=21d9ba441b0a5010f61b4196bc4bcb85"/>
+    <sys_variable_value action="delete_multiple" query="document_key=21d9ba441b0a5010f61b4196bc4bcb85"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=21d9ba441b0a5010f61b4196bc4bcb85^sys_idNOT IN65d9ba441b0a5010f61b4196bc4bcb8d,bdd9ba441b0a5010f61b4196bc4bcba0,f1d9ba441b0a5010f61b4196bc4bcb9b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">21d9ba441b0a5010f61b4196bc4bcb85</action>
+        <cid>151b8700-a933-4aca-b493-adefa5e0db8b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>65d9ba441b0a5010f61b4196bc4bcb8d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=65d9ba441b0a5010f61b4196bc4bcb8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65d9ba441b0a5010f61b4196bc4bcb8d</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>75d9ba441b0a5010f61b4196bc4bcb99</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //var gs = new GlideSystem();
+  //var myUserObject = gs.getUser();
+  //var tz = myUserObject.getTZ());
+
+  //var time = new GlideDateTime(); //utc
+  //var gcdt = new GlideCalendarDateTime(time);
+  //var zt = gs.getSession().getTimeZone()
+  //time.setTZ(tz); //set time based on tz variable
+  //var timeZoneOffSet = time.getTZOffset(); // calculate offset from utc
+  //time.setNumericValue(time.getNumericValue() + timeZoneOffSet); 
+  //outputs.newTime = time.toString();
+
+  //var gdt = new GlideDateTime(); //Get the current time in the Pacific time-zone
+  //outputs.newTime = gdt.getDisplayValue().toString();
+
+  var session = gs.getSession();
+  var zoneName = session.getTimeZoneName();
+  outputs.newtime = zoneName;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65d9ba441b0a5010f61b4196bc4bcb8d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>b1d9ba441b0a5010f61b4196bc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=65d9ba441b0a5010f61b4196bc4bcb8d^sys_idNOT IN69d9ba441b0a5010f61b4196bc4bcb90"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eadc85f0-3af6-47d8-b648-0d7f51e1824c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>newtime</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>newTime</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">65d9ba441b0a5010f61b4196bc4bcb8d</model>
+        <model_id>65d9ba441b0a5010f61b4196bc4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_65d9ba441b0a5010f61b4196bc4bcb8d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>69d9ba441b0a5010f61b4196bc4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">21d9ba441b0a5010f61b4196bc4bcb85</action>
+        <cid>8662905c-d9b2-4e31-9f75-1a45821a872f</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>bdd9ba441b0a5010f61b4196bc4bcba0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:14:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bdd9ba441b0a5010f61b4196bc4bcba0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bdd9ba441b0a5010f61b4196bc4bcba0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>7dd9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bdd9ba441b0a5010f61b4196bc4bcba0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bdd9ba441b0a5010f61b4196bc4bcba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>f9d9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bdd9ba441b0a5010f61b4196bc4bcba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>75d9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>bdd9ba441b0a5010f61b4196bc4bcba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>39d9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>short_description={{step[151b8700-a933-4aca-b493-adefa5e0db8b].newtime}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bdd9ba441b0a5010f61b4196bc4bcba0^sys_idNOT IN79d9ba441b0a5010f61b4196bc4bcbb0"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>bdd9ba441b0a5010f61b4196bc4bcba0</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>79d9ba441b0a5010f61b4196bc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">21d9ba441b0a5010f61b4196bc4bcb85</action>
+        <cid>4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>f1d9ba441b0a5010f61b4196bc4bcb9b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:14:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f1d9ba441b0a5010f61b4196bc4bcb9b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f1d9ba441b0a5010f61b4196bc4bcb9b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>7dd9ba441b0a5010f61b4196bc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f1d9ba441b0a5010f61b4196bc4bcb9b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f1d9ba441b0a5010f61b4196bc4bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>f9d9ba441b0a5010f61b4196bc4bcb9f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>sys_id={{action.icidentsysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>f1d9ba441b0a5010f61b4196bc4bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>39d9ba441b0a5010f61b4196bc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_action_input action="delete_multiple" query="model=21d9ba441b0a5010f61b4196bc4bcb85^sys_idNOT IN4b2afe441b0a5010f61b4196bc4bcb78"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=a0083bf3-8794-4d76-8d50-b889e0d278e7</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>icidentsysid</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>icidentSysID</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Timezone Action">21d9ba441b0a5010f61b4196bc4bcb85</model>
+        <model_id>21d9ba441b0a5010f61b4196bc4bcb85</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_21d9ba441b0a5010f61b4196bc4bcb85</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:48:36</sys_created_on>
+        <sys_id>4b2afe441b0a5010f61b4196bc4bcb78</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_step_instance action="delete_multiple" query="action=21d9ba441b0a5010f61b4196bc4bcb85^sys_idNOT IN65d9ba441b0a5010f61b4196bc4bcb8d,bdd9ba441b0a5010f61b4196bc4bcba0,f1d9ba441b0a5010f61b4196bc4bcb9b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">21d9ba441b0a5010f61b4196bc4bcb85</action>
+        <cid>151b8700-a933-4aca-b493-adefa5e0db8b</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>65d9ba441b0a5010f61b4196bc4bcb8d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=65d9ba441b0a5010f61b4196bc4bcb8d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65d9ba441b0a5010f61b4196bc4bcb8d</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>75d9ba441b0a5010f61b4196bc4bcb99</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+  //var gs = new GlideSystem();
+  //var myUserObject = gs.getUser();
+  //var tz = myUserObject.getTZ());
+
+  //var time = new GlideDateTime(); //utc
+  //var gcdt = new GlideCalendarDateTime(time);
+  //var zt = gs.getSession().getTimeZone()
+  //time.setTZ(tz); //set time based on tz variable
+  //var timeZoneOffSet = time.getTZOffset(); // calculate offset from utc
+  //time.setNumericValue(time.getNumericValue() + timeZoneOffSet); 
+  //outputs.newTime = time.toString();
+
+  //var gdt = new GlideDateTime(); //Get the current time in the Pacific time-zone
+  //outputs.newTime = gdt.getDisplayValue().toString();
+
+  var session = gs.getSession();
+  var zoneName = session.getTimeZoneName();
+  outputs.newtime = zoneName;
+
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>65d9ba441b0a5010f61b4196bc4bcb8d</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>b1d9ba441b0a5010f61b4196bc4bcb99</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="">f5e56d79b3101300176b051a16a8dce4</variable>
+    </sys_variable_value>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=65d9ba441b0a5010f61b4196bc4bcb8d^sys_idNOT IN69d9ba441b0a5010f61b4196bc4bcb90"/>
+    <sys_hub_step_ext_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=eadc85f0-3af6-47d8-b648-0d7f51e1824c</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>newtime</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>newTime</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Script step">65d9ba441b0a5010f61b4196bc4bcb8d</model>
+        <model_id>65d9ba441b0a5010f61b4196bc4bcb8d</model_id>
+        <model_table>sys_hub_step_instance</model_table>
+        <name>var__m_sys_hub_step_ext_output_65d9ba441b0a5010f61b4196bc4bcb8d</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_step_ext_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>69d9ba441b0a5010f61b4196bc4bcb90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_step_ext_output>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">21d9ba441b0a5010f61b4196bc4bcb85</action>
+        <cid>8662905c-d9b2-4e31-9f75-1a45821a872f</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Update Record step</label>
+        <order>3</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Update Record">b51f683667003200553fafb49585ef3f</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>bdd9ba441b0a5010f61b4196bc4bcba0</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:14:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=bdd9ba441b0a5010f61b4196bc4bcba0"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>bdd9ba441b0a5010f61b4196bc4bcba0</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>7dd9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">3930d57267003200553fafb49585efc5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=bdd9ba441b0a5010f61b4196bc4bcba0"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>bdd9ba441b0a5010f61b4196bc4bcba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>f9d9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>{{step[4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80].record}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>bdd9ba441b0a5010f61b4196bc4bcba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>75d9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>update_record_field_values</field>
+        <id>bdd9ba441b0a5010f61b4196bc4bcba0</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>39d9ba441b0a5010f61b4196bc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_b51f683667003200553fafb49585ef3f</table>
+        <value>short_description={{step[151b8700-a933-4aca-b493-adefa5e0db8b].newtime}}</value>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bdd9ba441b0a5010f61b4196bc4bcba0^sys_idNOT IN79d9ba441b0a5010f61b4196bc4bcbb0"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>record</input_name>
+        <instance>bdd9ba441b0a5010f61b4196bc4bcba0</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"record":{"scriptActive":false}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>79d9ba441b0a5010f61b4196bc4bcbb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Timezone Action">21d9ba441b0a5010f61b4196bc4bcb85</action>
+        <cid>4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Record step</label>
+        <order>2</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Record">dc9c26043b23220057a4a2e334efc447</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>f1d9ba441b0a5010f61b4196bc4bcb9b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 07:14:40</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f1d9ba441b0a5010f61b4196bc4bcb9b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>f1d9ba441b0a5010f61b4196bc4bcb9b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>7dd9ba441b0a5010f61b4196bc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="">f9cc66043b23220057a4a2e334efc42f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f1d9ba441b0a5010f61b4196bc4bcb9b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>f1d9ba441b0a5010f61b4196bc4bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>f9d9ba441b0a5010f61b4196bc4bcb9f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:36</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value>sys_id={{action.icidentsysid}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>lookup_table_name</field>
+        <id>f1d9ba441b0a5010f61b4196bc4bcb9b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:47:08</sys_created_on>
+        <sys_id>39d9ba441b0a5010f61b4196bc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:47:08</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_dc9c26043b23220057a4a2e334efc447</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_21d9ba441b0a5010f61b4196bc4bcb85^sys_idNOT IN9b2afe441b0a5010f61b4196bc4bcb7d"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>icidentsysid</element>
+        <help/>
+        <hint/>
+        <label>icidentSysID</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_21d9ba441b0a5010f61b4196bc4bcb85</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-12 06:48:36</sys_created_on>
+        <sys_id>9b2afe441b0a5010f61b4196bc4bcb7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-12 06:48:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

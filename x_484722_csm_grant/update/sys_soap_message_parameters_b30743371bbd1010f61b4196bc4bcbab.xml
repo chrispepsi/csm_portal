@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="INSERT_OR_UPDATE">
+        <name>get.sys_id</name>
+        <soap_function display_value="get">93f543f31bbd1010f61b4196bc4bcbaf</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-07-11 13:06:32</sys_created_on>
+        <sys_id>b30743371bbd1010f61b4196bc4bcbab</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>get.sys_id</sys_name>
+        <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_b30743371bbd1010f61b4196bc4bcbab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-07-11 13:08:41</sys_updated_on>
+        <type>string</type>
+        <value>4bcffea71b7c5010f61b4196bc4bcb41</value>
+    </sys_soap_message_parameters>
+</record_update>
