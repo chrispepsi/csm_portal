@@ -6,13 +6,13 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
-        <compiler_build>glide-orlando-12-11-2019__patch0-hotfix1-01-08-2020</compiler_build>
+        <compiler_build>glide-orlando-12-11-2019__patch7-08-19-2020</compiler_build>
         <copied_from>f60cbb6d1b6d1010f61b4196bc4bcbda</copied_from>
         <copied_from_name>CIFLow</copied_from_name>
         <description>CI FLow</description>
         <internal_name>ci_flow</internal_name>
         <label_cache>[{"name":"6cde5889-153f-4c58-8470-82774bcfb499.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"6cde5889-153f-4c58-8470-82774bcfb499.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ef599f8-0a81-4a0c-a03e-5efde24cc3cd.table_name","label":"3.3➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"1ef599f8-0a81-4a0c-a03e-5efde24cc3cd.record","label":"3.3➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"432264db-de65-4a27-b1b4-f7f508fd9a18.table_name","label":"2.1➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"432264db-de65-4a27-b1b4-f7f508fd9a18.record","label":"2.1➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e1f2a5a-97a7-4c56-904d-9f6e903db204.table_name","label":"1➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0e1f2a5a-97a7-4c56-904d-9f6e903db204.record","label":"1➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"{{static.6816f79cc0a8016401c5a33be04be441}}","label":"System Administrator","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference"},{"name":"7d113ab9-a1e9-4758-8ac7-6ed6c935f4f1.table_name","label":"3.1➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7d113ab9-a1e9-4758-8ac7-6ed6c935f4f1.record","label":"3.1➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40e15b84-684f-4c9d-a322-b67f78abdf7c.table_name","label":"2.2➛Requested Item Table","reference":"sc_req_item","reference_display":"Requested Item","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"40e15b84-684f-4c9d-a322-b67f78abdf7c.record","label":"2.2➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"49625dc7-03d4-4cf8-b105-1a0b1e9c0d67.Catalog Task","label":"2.1➛Catalog Task","reference":"sc_task","reference_display":"Catalog Task","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"44f4fa61-dd8a-4cc9-88b4-d65a77073b6c.approval_state","label":"1➛Approval State","reference_display":"Approval State","type":"choice","base_type":"choice","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Service Catalog_1.request_item","label":"Trigger➛Requested Item Record","reference":"sc_req_item","reference_display":"Requested Item","type":"reference","base_type":"reference","attributes":{"default_search_field":"number"}},{"name":"32de03d9-83c5-4499-ac93-d3d2ee09ae65.table_name","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"32de03d9-83c5-4499-ac93-d3d2ee09ae65.record","label":"1➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
-        <latest_snapshot>5d39fc051b3d9010f61b4196bc4bcb67</latest_snapshot>
+        <latest_snapshot>0f127c491b642010f61b4196bc4bcb93</latest_snapshot>
         <master_snapshot>5d39fc051b3d9010f61b4196bc4bcb67</master_snapshot>
         <name>CI FLow</name>
         <natlang/>
@@ -75,10 +75,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>31093c051b3d9010f61b4196bc4bcb63</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>7d113ab9-a1e9-4758-8ac7-6ed6c935f4f1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=31093c051b3d9010f61b4196bc4bcb63"/>
@@ -162,10 +162,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>71093c051b3d9010f61b4196bc4bcb5f</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>40e15b84-684f-4c9d-a322-b67f78abdf7c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=71093c051b3d9010f61b4196bc4bcb5f"/>
@@ -385,10 +385,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>bd093c051b3d9010f61b4196bc4bcb5a</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>49625dc7-03d4-4cf8-b105-1a0b1e9c0d67</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bd093c051b3d9010f61b4196bc4bcb5a"/>
@@ -420,10 +420,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>e9093c051b3d9010f61b4196bc4bcb54</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>44f4fa61-dd8a-4cc9-88b4-d65a77073b6c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e9093c051b3d9010f61b4196bc4bcb54"/>
@@ -936,10 +936,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>31093c051b3d9010f61b4196bc4bcb63</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>7d113ab9-a1e9-4758-8ac7-6ed6c935f4f1</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=31093c051b3d9010f61b4196bc4bcb63"/>
@@ -1023,10 +1023,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>71093c051b3d9010f61b4196bc4bcb5f</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>40e15b84-684f-4c9d-a322-b67f78abdf7c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=71093c051b3d9010f61b4196bc4bcb5f"/>
@@ -1124,10 +1124,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>bd093c051b3d9010f61b4196bc4bcb5a</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>49625dc7-03d4-4cf8-b105-1a0b1e9c0d67</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=bd093c051b3d9010f61b4196bc4bcb5a"/>
@@ -1159,10 +1159,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:42:34</sys_created_on>
         <sys_id>e9093c051b3d9010f61b4196bc4bcb54</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 06:17:56</sys_updated_on>
+        <sys_updated_on>2020-11-16 06:05:03</sys_updated_on>
         <ui_id>44f4fa61-dd8a-4cc9-88b4-d65a77073b6c</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e9093c051b3d9010f61b4196bc4bcb54"/>
@@ -1484,7 +1484,7 @@
         <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"f139fc051b3d9010f61b4196bc4bcbf2","name":"plan"}}</plan>
         <plan_id>59093c051b3d9010f61b4196bc4bcb29</plan_id>
-        <snapshot>5d39fc051b3d9010f61b4196bc4bcb67</snapshot>
+        <snapshot>0f127c491b642010f61b4196bc4bcb93</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-02 13:43:24</sys_created_on>
         <sys_domain>global</sys_domain>

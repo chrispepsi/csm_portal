@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
     <sys_push_notif_app_install action="INSERT_OR_UPDATE">
         <active>true</active>
-        <last_registered_on>2020-07-03 03:54:46</last_registered_on>
+        <last_registered_on>2020-09-17 09:26:51</last_registered_on>
         <sys_class_name>sys_push_notif_app_install</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-03 03:54:43</sys_created_on>
         <sys_id>101c7b051b35d010f61b4196bc4bcb74</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>9bc3c42c411dec87a488ef3ee112f254f3c60b54bb2118916c23751198e165d9</sys_name>
         <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
         <sys_policy/>
@@ -15,7 +15,7 @@
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_update_name>sys_push_notif_app_install_101c7b051b35d010f61b4196bc4bcb74</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-03 03:54:46</sys_updated_on>
+        <sys_updated_on>2020-09-17 09:26:51</sys_updated_on>
         <sys_user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</sys_user_id>
         <token>9bc3c42c411dec87a488ef3ee112f254f3c60b54bb2118916c23751198e165d9</token>
     </sys_push_notif_app_install>

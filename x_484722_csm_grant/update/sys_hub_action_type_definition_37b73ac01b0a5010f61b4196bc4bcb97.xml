@@ -13,7 +13,7 @@
         <ih_action>false</ih_action>
         <internal_name>timezone_action</internal_name>
         <label_cache>[{"name":"{{action.icidentno}}","label":"action➛icidentSysID","type":"action","ref":""},{"name":"{{action.icidentsysid}}","label":"action➛icidentSysID","type":"action","ref":""},{"name":"{{step[4cc5b1f1-7228-4ad3-ad5a-115c1e7d4c80].record}}","label":"step➛Look Up Record step➛Incident Record","type":"step","ref":"incident"},{"name":"{{step[151b8700-a933-4aca-b493-adefa5e0db8b].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[151b8700-a933-4aca-b493-adefa5e0db8b].newtime}}","label":"step➛Script step➛newTime","type":"step","ref":""},{"name":"{{step[eb6aae27-5ec1-4089-95d4-881d234b1362].variable}}","label":"step➛Script step➛variable","type":"step","ref":""},{"name":"{{step[eb6aae27-5ec1-4089-95d4-881d234b1362].tmp}}","label":"step➛Script step➛tmp","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>7b23b3801bca5010f61b4196bc4bcbd3</latest_snapshot>
+        <latest_snapshot>4bfa58281bc69010f61b4196bc4bcb02</latest_snapshot>
         <master_snapshot>21d9ba441b0a5010f61b4196bc4bcb85</master_snapshot>
         <name>Timezone Action</name>
         <natlang/>
@@ -25,7 +25,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>37b73ac01b0a5010f61b4196bc4bcb97</sys_id>
-        <sys_mod_count>68</sys_mod_count>
+        <sys_mod_count>80</sys_mod_count>
         <sys_name>Timezone Action</sys_name>
         <sys_overrides/>
         <sys_package display_value="CSM Grant" source="x_484722_csm_grant">1de344b61bc91410f61b4196bc4bcbbb</sys_package>
@@ -33,7 +33,7 @@
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_37b73ac01b0a5010f61b4196bc4bcb97</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:41</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:30:04</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -203,10 +203,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:38:20</sys_created_on>
         <sys_id>c5d7f2041b0a5010f61b4196bc4bcbdb</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:13:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c5d7f2041b0a5010f61b4196bc4bcbdb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -217,9 +217,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:38:21</sys_created_on>
         <sys_id>0dd7f2041b0a5010f61b4196bc4bcbe3</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:13:01</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   //var gs = new GlideSystem();
   //var myUserObject = gs.getUser();
@@ -238,7 +238,7 @@
 
   var session = gs.getSession();
   var zoneName = session.getTimeZoneName();
-  outputs.newtime = zoneName;
+  outputs.newtime = zoneName.toString() + '_' + gs.getUserDisplayName();
 
 })(inputs, outputs);
 </value>
@@ -586,10 +586,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:38:20</sys_created_on>
         <sys_id>c5d7f2041b0a5010f61b4196bc4bcbdb</sys_id>
-        <sys_mod_count>20</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:13:00</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=c5d7f2041b0a5010f61b4196bc4bcbdb"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -600,9 +600,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:38:21</sys_created_on>
         <sys_id>0dd7f2041b0a5010f61b4196bc4bcbe3</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:36</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:13:01</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   //var gs = new GlideSystem();
   //var myUserObject = gs.getUser();
@@ -621,7 +621,7 @@
 
   var session = gs.getSession();
   var zoneName = session.getTimeZoneName();
-  outputs.newtime = zoneName;
+  outputs.newtime = zoneName.toString() + '_' + gs.getUserDisplayName();
 
 })(inputs, outputs);
 </value>
@@ -751,17 +751,17 @@
     <sys_hub_action_plan action="INSERT_OR_UPDATE">
         <action_id display_value="Timezone Action">37b73ac01b0a5010f61b4196bc4bcb97</action_id>
         <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"42d9fa441b0a5010f61b4196bc4bcb1a","name":"plan"}}</plan>
-        <snapshot>7b23b3801bca5010f61b4196bc4bcbd3</snapshot>
+        <snapshot>4bfa58281bc69010f61b4196bc4bcb02</snapshot>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:47:09</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>42d9fa441b0a5010f61b4196bc4bcb1a</sys_id>
-        <sys_mod_count>11</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:41</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:30:05</sys_updated_on>
     </sys_hub_action_plan>
     <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
         <access>public</access>
@@ -816,10 +816,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:47:08</sys_created_on>
         <sys_id>65d9ba441b0a5010f61b4196bc4bcb8d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:30:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=65d9ba441b0a5010f61b4196bc4bcb8d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -830,9 +830,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:47:08</sys_created_on>
         <sys_id>75d9ba441b0a5010f61b4196bc4bcb99</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:30:04</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   //var gs = new GlideSystem();
   //var myUserObject = gs.getUser();
@@ -851,7 +851,7 @@
 
   var session = gs.getSession();
   var zoneName = session.getTimeZoneName();
-  outputs.newtime = zoneName;
+  outputs.newtime = zoneName.toString() + '_' + gs.getUserDisplayName();
 
 })(inputs, outputs);
 </value>
@@ -1199,10 +1199,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:47:08</sys_created_on>
         <sys_id>65d9ba441b0a5010f61b4196bc4bcb8d</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_scope display_value="CSM Grant">1de344b61bc91410f61b4196bc4bcbbb</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:30:04</sys_updated_on>
     </sys_hub_step_instance>
     <sys_variable_value action="delete_multiple" query="document_key=65d9ba441b0a5010f61b4196bc4bcb8d"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -1213,9 +1213,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-07-12 06:47:08</sys_created_on>
         <sys_id>75d9ba441b0a5010f61b4196bc4bcb99</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-07-12 10:57:40</sys_updated_on>
+        <sys_updated_on>2020-07-13 08:30:04</sys_updated_on>
         <value>(function execute(inputs, outputs) {
   //var gs = new GlideSystem();
   //var myUserObject = gs.getUser();
@@ -1234,7 +1234,7 @@
 
   var session = gs.getSession();
   var zoneName = session.getTimeZoneName();
-  outputs.newtime = zoneName;
+  outputs.newtime = zoneName.toString() + '_' + gs.getUserDisplayName();
 
 })(inputs, outputs);
 </value>

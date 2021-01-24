@@ -2,6 +2,7 @@
     <sp_portal action="INSERT_OR_UPDATE">
         <css_variables/>
         <default>false</default>
+        <hide_portal_name>false</hide_portal_name>
         <homepage display_value="csmg_index">e08b9e8e1bed5010f61b4196bc4bcbe3</homepage>
         <icon/>
         <kb_knowledge_base/>

@@ -8,6 +8,7 @@
         <internal>false</internal>
         <public>true</public>
         <roles/>
+        <seo_script/>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -22,6 +23,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-07-02 13:32:58</sys_updated_on>
         <title>Grant jQuery eg</title>
+        <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=2eca70961ba59010f61b4196bc4bcbfb"/>
 </record_update>

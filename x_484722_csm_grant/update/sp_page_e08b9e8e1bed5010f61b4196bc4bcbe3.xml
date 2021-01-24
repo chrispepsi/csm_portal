@@ -76,6 +76,7 @@ section.page, section.body {
         <internal>false</internal>
         <public>true</public>
         <roles/>
+        <seo_script/>
         <short_description/>
         <sys_class_name>sp_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -90,6 +91,7 @@ section.page, section.body {
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2020-06-23 13:12:03</sys_updated_on>
         <title>Customer Service Portal Grants</title>
+        <use_seo_script>false</use_seo_script>
     </sp_page>
     <sys_translated_text action="delete_multiple" query="documentkey=e08b9e8e1bed5010f61b4196bc4bcbe3"/>
 </record_update>
